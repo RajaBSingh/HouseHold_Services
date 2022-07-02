@@ -54,7 +54,7 @@
                               <li><a href="<?php echo base_url()?>home/portfolio">Portfolio</a></li>
                               <li><a href="<?php echo base_url()?>home/pricing">Pricing</a></li>
                               <li><a href="<?php echo base_url()?>home/contact">Contact</a></li>
-                              <li><a class="fa fa-sign-in aria-hidden="true" href="<?php echo base_url()?>home/login"></a></li>
+                              <li><a href="<?php echo base_url().'home/login' ?>"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a></li>
                           </ul>
                       </div>
                   </div>
@@ -85,7 +85,7 @@
     </form>
       <div class="row">
         <div class="col-sm-12">
-         <center> <a href="<?php echo base_url().'home/signup' ?>"> Create New Account Click Here. <span class="text-info"><b> Sign Up</b></span></a></center>
+         <center> <a href="<?php echo base_url().'home/signup' ?>"> Create New Account Click Here. <span class="text-info"><b> Sign Up </b></span></a></center>
         </div>
         
       </div>

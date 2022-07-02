@@ -9,7 +9,7 @@
 
     </script>
 <meta charset="utf-8">
-<title>Home Services Bootstrap Corporate Web Template</title>
+<title>HomeHold Services </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com/" />
@@ -50,12 +50,13 @@
                             <li><a href="#">News</a></li> 
                             <li><a href="#">Investors</a></li>
                         </ul>
-                    </li>
-						<li><a href="<?php echo base_url().'home/services' ?>">Services</a></li> 
+                    </li> 
+						<li><a href="<?php echo base_url().'home/services' ?>"> Services</a></li> 
                         <li><a href="<?php echo base_url().'home/portfolio' ?>">Portfolio</a></li>
-                        <li><a href="<?php echo base_url().'home/pricing' ?>">Pricing</a></li>
+                        <li><a href="<?php echo base_url().'home/pricing' ?>"> Pricing</a></li>
                         <li><a href="<?php echo base_url().'home/contact' ?>">Contact</a></li>
-                        <li><a class="fa fa-sign-in aria-hidden="true" href="<?php echo base_url().'home/login' ?>"></a></li>
+                        <li><a href="<?php echo base_url().'home/login' ?>"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a></li>
+                        
                     </ul>
                 </div>
             </div>

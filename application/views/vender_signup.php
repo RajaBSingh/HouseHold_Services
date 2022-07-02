@@ -48,7 +48,7 @@
                               <li><a href="<?php echo base_url()?>home/portfolio">Portfolio</a></li>
                               <li><a href="<?php echo base_url()?>home/pricing">Pricing</a></li>
                               <li><a href="<?php echo base_url()?>home/contact">Contact</a></li>
-                              <li><a href="<?php echo base_url()?>home/login"><i class="fa fa-user fa-2x"> </i></a></li>
+                              <li><a href="<?php echo base_url()?>home/login"><i class="fa fa-user fa-2x"></i></a></li>
                           </ul>
                       </div>
                   </div>
@@ -77,6 +77,19 @@
             <label>Enter Password</label>
             <input type="password" name="Password" class="form-control" placeholder="**************">
           </div>
+          <div class="form-group col-sm-12">
+            <label for="">Profession</label>
+            <select class="form-control" name="profession" id="profession">
+                <option value="none">Select Profession</option>
+                <option value="electrician">Electrician</option>
+                <option value="plumber">Plumber</option>
+                <option value="home_cleaning">Home Cleaning</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Your Location</label>
+            <input type="text" name="location" class="form-control">
+          </div>
           <div class="form-group">
             <button type="submit" class="btn btn-info">Signup</button>
           </div> 
@@ -84,7 +97,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-         <center> <a href="<?php echo base_url().'home/vender_signup' ?>">SignUp As Vender. <span class="text-info"><b> SignUp</b></span></a></center>
+         <center> <a href="<?php echo base_url().'home/login' ?>">SignUp As Vender. <span class="text-info"><b> SignUp</b></span></a></center>
         </div> 
       </div>
       <div class="row">

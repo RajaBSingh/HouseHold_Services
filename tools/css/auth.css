@@ -1,13 +1,9 @@
 .login_box {
-    width: 40%;
-    height: 35%;
-    margin: 0 auto;
-    margin-top: 10px;
+    height: 45%;
+    width:60%;
+    margin-left: 15%;
+    margin-right: 25%;
     background-color: #f0f0f0;
-    padding: 10px 50px 50px 50px;
-    border-radius: 50px;
-    border: 2px;
-    box-shadow: 10px 15px 5px;
 }
 a {
     color: black;

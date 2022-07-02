@@ -77,6 +77,10 @@ class Home extends CI_Controller
 		$this->session->unset_userdata('user_session');
 		redirect(base_url().'home');
 	}
+	public function vender_signup()
+	{
+		$this->load->view('vender_signup');
+	}
 
 }
 ?>
